@@ -1,0 +1,290 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+#header {
+	background: #161D2F;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+}
+
+.stay {
+	color: #FFF;
+	font-family: sans-serif, Poppins;
+	font-size: 24px;
+	font-weight: 800;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	color: #FFF;
+}
+
+.menu a {
+	text-decoration: none;
+	margin: 0 15px;
+	font-family: sans-serif, Poppins;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21px;
+	color: white;
+
+}
+
+.btn {
+	border: none;
+	color: white;
+	padding: 12px 35px;
+	border-radius: 28px;
+	background: #1F629F;
+	border-radius: 28px;
+	background: linear-gradient(97deg, #3043A9 11.99%, #1F629F 96.6%);
+}
+
+#choose {
+	background: #161D2F;
+}
+
+.choose {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: #ffffff;
+}
+
+.choose h5 {
+	font-family: sans-serif, Poppins;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 20px 0;
+
+}
+
+.choose h1 {
+	font-family: sans-serif, Poppins;
+	font-size: 62px;
+	text-align: center;
+	width: 60%;
+}
+
+.choose p {
+	padding: 30px 0;
+	width: 43%;
+	font-family: sans-serif, Poppins;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.74);
+}
+
+.button {
+	width: 25%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.btns {
+	padding: 12px 35px;
+	border-radius: 28px;
+	color: white;
+	border: solid 1px white;
+	background: transparent;
+}
+
+
+.slider {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 90px 0 0;
+
+}
+
+.slider h1 {
+	color: #222;
+	text-align: center;
+	font-size: 40px;
+	line-height: 150%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.swiper-slide img {
+
+	display: block;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+
+.sliderSwiper {
+	height: 420px;
+	width: 1100px;
+	padding: 25px 0;
+}
+
+.swiper-slide h4 {
+	color: #222;
+	font-family: sans-serif, Poppins;
+	font-size: 30px;
+	line-height: 45px;
+}
+
+.swiper-slide h5 {
+	color: #222;
+	font-family: sans-serif, Poppins;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.swiper-slide p {
+	color: #4B4B4B;
+	font-family: sans-serif, Poppins;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.herf {
+	display: flex;
+
+}
+
+.herf h5 {
+	color: #3043A9;
+	font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+	font-family: sans-serif, Poppins;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 10px;
+}
+
+#workout {
+	margin-top: 100px;
+}
+
+.workout {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.Discipline {
+	position: absolute;
+	margin-left: -70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 60px;
+	border-radius: 10px;
+	background: #161D2F;
+}
+
+.Discipline p {
+	margin-left: 10px;
+	color: #fff;
+	font-family: sans-serif, Poppins;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+.img1 {
+	margin: 0 0 0 30px;
+}
+
+.img2 {
+	position: absolute;
+	margin-top: 200px;
+	margin-left: -60px;
+}
+
+.Eating p {
+	margin-left: 10px;
+	color: #fff;
+	font-family: sans-serif, Poppins;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+.Eating {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 60px;
+	border-radius: 10px;
+	background: #161D2F;
+	position: absolute;
+	margin-top: 135px;
+	margin-left: 320px;
+}
+
+
+.workText{
+	padding: 111px 0 0 0 ;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 445px;
+
+}
+.workText h4 {
+	margin: 20px 0;
+	color: #222;
+	font-family: sans-serif, Poppins;
+	font-size: 14px;
+
+}
+
+.workText h2 {
+	color: #161D2F;
+	font-family: sans-serif, Poppins;
+	font-size: 40px;
+	line-height: 150%;
+}
+
+.workText p {
+	margin: 20px;
+	color: #222;
+	font-family: sans-serif, Poppins;
+	font-size: 15px;
+	line-height: 30px;
+	width: 420px;
+}
+
+.workText button {
+	width: 157px;
+	height: 53px;
+	border-radius: 28px;
+	border-radius: 28px;
+background: linear-gradient(97deg, #3043A9 11.99%, #1F629F 96.6%);
+border: none;
+color: #FFF;
+}
